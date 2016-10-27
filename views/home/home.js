@@ -1,0 +1,37 @@
+/**
+ * Created by hxsd on 2016/9/29.
+ */
+angular.module("myapp").controller("homeCtrl",function($scope){
+
+    //准备预订数据-实际中应该从服务器端请求
+    $scope.data1=[
+        {
+            text:"海边浪漫",
+            imgsrc:"images/16.jpg"
+        },
+        {
+            text:"薰衣草花海",
+            imgsrc:"images/30.jpg"
+        },
+        {
+            text:"执子之手，与子偕老",
+            imgsrc:"images/i7.jpg"
+        },
+        {
+            text:"缘定今生",
+            imgsrc:"images/3.jpg"
+        },
+        {
+            text:"不离不弃",
+            imgsrc:"images/5.jpg"
+        },
+        {
+            text:"永远的约定",
+            imgsrc:"images/7.jpg"
+        },
+        {
+            text:"钟爱一生",
+            imgsrc:"images/f12.jpg"
+        }
+    ]
+})

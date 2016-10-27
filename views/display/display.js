@@ -1,0 +1,66 @@
+/**
+ * Created by hxsd on 2016/9/29.
+ */
+angular.module("myapp").controller("displayCtrl",function($scope){
+    //准备预订数据-实际中应该从服务器端请求
+    $scope.datas=[
+        {
+            text1:"2016年9月第四季客片",
+            text2:"每次我感到失意时，都回忆起你的浅笑，你的鼓励，它们使我坚强的面对下去，谢谢你！",
+            time:"2016.9.9",
+            imgsrc1:"images/d2.jpg",
+            imgsrc2:"images/d5.jpg",
+            imgsrc3:"images/d6.jpg"
+        },
+        {
+            text1:"2016年8月第二季客片",
+            text2:"微风拂面柳如烟，人生如梦，一梦十年，曾的的娇靥如画如花；那时的音容如梦如幻，夕阳西下月上柳梢。",
+            time:"2016.8.15",
+            imgsrc1:"images/h8.jpg",
+            imgsrc2:"images/h9.jpg",
+            imgsrc3:"images/h10.jpg"
+
+        },
+        {
+            text1:"2016年7月第一季客片",
+            text2:"那是一种特殊的美，也是敏感的美，油然而生就在你的面前，尴尬上升到一个层面，虽然默不作声，比说出来还真实。",
+            time:"2016.7.4",
+            imgsrc1:"images/f1.jpg",
+            imgsrc2:"images/f4.jpg",
+            imgsrc3:"images/f7.jpg"
+        },
+        {
+            text1:"2016年6月第三季客片",
+            text2:"心柔的月光，你再多的深情也藏不住夜暮下的流光，沿着灯火深处炊烟升起的方向，寻觅着悠然未尽的那缕余香。",
+            time:"2016.6.20",
+            imgsrc1:"images/g2.jpg",
+            imgsrc2:"images/g5.jpg",
+            imgsrc3:"images/g10.jpg"
+        },
+        {
+            text1:"2016年5月第二季客片",
+            text2:"执子之手，与子偕老;结婚若干年后，从青涩时光到朝暮年华，还能手牵一起，这样的情感让不少人仰望。",
+            time:"2016.5.29",
+            imgsrc1:"images/i2.jpg",
+            imgsrc2:"images/i5.jpg",
+            imgsrc3:"images/i7.jpg"
+        },
+        {
+            text1:"2016年4月第三季客片",
+            text2:"传神就象在顷刻间发生，是那么的歇斯底里还是那么的铭刻，就像钉在瞳孔里，镶在爱的心上，是那么的一劳永固，铭刻与心。",
+            time:"2016.4.20",
+            imgsrc1:"images/e2.jpg",
+            imgsrc2:"images/e7.jpg",
+            imgsrc3:"images/e9.jpg"
+        },
+        {
+            text1:"2016年3月第二季客片",
+            text2:"恋你，是一种温馨的悲哀，是一种浪漫的情怀，是一种柔美的姿态，更是一种想去说而又不得不说的喜爱！亲爱的，愿与你相爱至白头。",
+            time:"2016.3.15",
+            imgsrc1:"images/b2.jpg",
+            imgsrc2:"images/b5.jpg",
+            imgsrc3:"images/b3.jpg"
+        }
+    ]
+
+})

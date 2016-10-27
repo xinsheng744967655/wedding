@@ -1,0 +1,29 @@
+<ion-header-bar>
+    <div class="row bg1">
+        <a ui-sref="home" class="col col-20">站点首页</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/display" class="col col-20">客片展示</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/select" class="col col-20">精选套系</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/about" class="col col-20">联系我们</a>
+    </div>
+</ion-header-bar>
+
+<ion-view>
+    <ion-content>
+        <div class="list">
+            <div class="item item-text-wrap" ng-repeat="data in datas" id="item">
+                <div class="row">
+                    <a href="#" class="col col-33"><img ng-src="{{data.imgsrc1}}"> </a>
+                    <a href="#" class="col col-33"><img ng-src="{{data.imgsrc2}}"></a>
+                    <a href="#" class="col col-3" ><img ng-src="{{data.imgsrc3}}"></a>
+                </div>
+                <h3>{{data.text1}}</h3>
+                <h4>{{data.text2}}</h4>
+                <h4>{{data.time}}</h4>
+
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

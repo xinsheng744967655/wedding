@@ -1,0 +1,45 @@
+<ion-header-bar>
+    <div class="row bg1">
+        <a ui-sref="home" class="col col-20">站点首页</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/display" class="col col-20">客片展示</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/select" class="col col-20">精选套系</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/about" class="col col-20">联系我们</a>
+    </div>
+</ion-header-bar>
+
+<ion-view>
+    <ion-content>
+        <ion-slide-box auto-play="true" does-continue="true" slide-interval="2500" show-pager="true">
+            <ion-slide>
+                <div class="box"><img src="images/c3.JPG"/></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="images/c4.JPG"/></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="images/c1.JPG"/></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="images/c6.JPG"/></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box"><img src="images/c7.JPG"/></div>
+            </ion-slide>
+        </ion-slide-box>
+        <h3>2016年度巨献</h3>
+        <h4>恋你，是一种温馨的悲哀，是一种浪漫的情怀，是一种柔美的姿态，更是一种想去说而又不得不说的喜爱！亲爱的，愿与你相爱至白头。</h4>
+
+
+        <div class="list" ng-repeat="data in data1">
+            <div class="item item-image" >
+                <img ng-src="{{data.imgsrc}}">
+            </div>
+            <div class="item">
+                <p>{{data.text}}</p>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

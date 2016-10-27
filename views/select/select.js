@@ -1,0 +1,48 @@
+/**
+ * Created by hxsd on 2016/9/29.
+ */
+angular.module("myapp").controller("selectCtrl",function($scope){
+    //准备预订数据-实际中应该从服务器端请求
+    $scope.data2=[
+        {
+            text:"《九寨沟旅拍》套系",
+            imgsrc:"images/t1.jpg",
+            price:4999
+        },
+        {
+            text:"《水晶王者》套系",
+            imgsrc:"images/t2.jpg",
+            price:29588
+        },
+        {
+            text:"《多彩水晶》套系",
+            imgsrc:"images/t3.jpg",
+            price:5588
+        },
+        {
+            text:"《水晶极品》套系",
+            imgsrc:"images/t4.jpg",
+            price:88888
+        },
+        {
+            text:"《青岛旅拍》套系",
+            imgsrc:"images/t5.jpg",
+            price:4999
+        },
+        {
+            text:"《厦门旅拍》套系",
+            imgsrc:"images/t6.jpg",
+            price:4999
+        },
+        {
+            text:"《水晶至尊》套系",
+            imgsrc:"images/t7.jpg",
+            price:58888
+        },
+        {
+            text:"《皇家水晶 》套系",
+            imgsrc:"images/t8.jpg",
+            price:19588
+        }
+    ]
+})

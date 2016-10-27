@@ -1,0 +1,24 @@
+
+<ion-header-bar>
+    <div class="row bg1">
+        <a ui-sref="home" class="col col-20">站点首页</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/display" class="col col-20">客片展示</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/select" class="col col-20">精选套系</a>
+        <a href="#" class="col col-7">|</a>
+        <a href="#/about" class="col col-20">联系我们</a>
+    </div>
+</ion-header-bar>
+<ion-view title="婚纱摄影" hide-back-button="true">
+    <ion-content>
+       <h2>精选套系</h2>
+       <div class="list" id="item1">
+           <div class="item item-thumbnail-left" ng-repeat="data in data2">
+               <img ng-src="{{data.imgsrc}}">
+               <h2>{{data.text}}</h2>
+               <p>{{data.price | currency:"￥"}}</p>
+           </div>
+       </div>
+    </ion-content>
+</ion-view>
